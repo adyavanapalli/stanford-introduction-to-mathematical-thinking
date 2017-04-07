@@ -76,49 +76,11 @@ Assignment 1 (for Lecture 1) Solutions
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Q1.
- Find two unambiguous (but natural sounding) sentences equivalent to the
- sentence 
-\shape italic
-The man saw the woman with a telescope
-\shape default
-, the first where the man has the telescope, the second where the woman
- has the telescope.
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
 A1.
  The man saw the woman with his telescope.
  The man saw the woman holding the telescope.
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-Q2.
- For each of the three ambiguous newspaper headlines I stated in the lecture,
- rewrite it in a way that avoids the amusing second meaning, while retaining
- the brevity of a typical headline:
-\end_layout
-
-\begin_deeper
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-(a) Sisters reunited after ten years in checkout line at Safeway.
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-(b) Large hole appears in High Street.
- City authorities are looking into it.
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-(c) Mayor says bus passengers should be belted.
-\end_layout
-
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 A2.
@@ -145,20 +107,6 @@ A2.
 \end_deeper
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Q3.
- The following notice was posted on the wall of a hospital emergency room.
-\end_layout
-
-\begin_deeper
-\begin_layout Quote
-
-\shape smallcaps
-NO HEAD INJURY IS TOO TRIVIAL TO IGNORE.
-\end_layout
-
-\end_deeper
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
 A3.
 \end_layout
 
@@ -170,38 +118,11 @@ ALL HEAD INJURIES SHOULD NOT BE IGNORED
 \end_deeper
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Q4.
- You often see the following notice posted in elevators:
-\end_layout
-
-\begin_deeper
-\begin_layout Quote
-IN CASE OF FIRE, DO NOT USE ELEVATOR
-\end_layout
-
-\end_deeper
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
 A4.
  Don't use the elevator otherwise there might be a fire.
  If there is a fire, don't use the elevator.
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-Q5.
- Official documents often contain one or more pages that are empty apart
- from one sentence at the bottom:
-\end_layout
-
-\begin_deeper
-\begin_layout Quote
-
-\shape italic
-This page intentionally left blank.
-\end_layout
-
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 A5.
@@ -220,15 +141,6 @@ This page intentionally lacks content.
 \end_layout
 
 \end_deeper
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-Q6.
- Find (and provide citations for) three examples of published sentences
- whose literal meaning is (clearly) not what the writer intended.
- [This is much easier than you might think.
- Ambiguity is very common.]
-\end_layout
-
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 A6.
@@ -291,14 +203,6 @@ Daily Telegraph
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Q7.
- Comment on the sentence “The temperature is hot today.” You hear people
- say things like this all the time, and everyone understands what is meant.
- But using language in this sloppy way in mathematics would be disastrous.
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
 A7.
  The temperature is 
 \begin_inset Quotes eld
@@ -317,20 +221,6 @@ Hot today
 \end_inset
 
  is not a number.
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-Q8.
- How would you show that not every number of the form 
-\begin_inset Formula $N=(p_{1}\cdot p_{2}\cdot p_{3}\cdot\ldots\,\cdot p_{n})+1$
-\end_inset
-
- is prime, where 
-\begin_inset Formula $p_{1},\,p_{2},\,p_{3},\ldots\,,p_{n},\ldots$
-\end_inset
-
- is the list of all prime numbers? 
 \end_layout
 
 \begin_layout Labeling
@@ -358,18 +248,6 @@ JUST FOR FUN
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Q1.
- Provide a context and a sentence within that context, where the word 
-\shape italic
-and
-\shape default
- occurs five times in succession, with no other word between those five
- occurrences.
- (You are allowed to use punctuation.)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
 A1.
  And And and And And.
  (
@@ -377,33 +255,6 @@ A1.
 And And
 \emph default
  is a name)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-Q2.
- Provide a context and a sentence within that context, where the words 
-\emph on
-and
-\emph default
-, 
-\emph on
-or
-\emph default
-, 
-\emph on
-and
-\emph default
-, 
-\emph on
-or
-\emph default
-, 
-\emph on
-and
-\emph default
- occur in that order, with no other word between them.
- (Again, you can use punctuation.)
 \end_layout
 
 \begin_layout Labeling
