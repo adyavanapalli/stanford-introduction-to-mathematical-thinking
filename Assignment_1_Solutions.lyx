@@ -1,0 +1,425 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Assignment 1 (for Lecture 1) Solutions
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q1.
+ Find two unambiguous (but natural sounding) sentences equivalent to the
+ sentence 
+\shape italic
+The man saw the woman with a telescope
+\shape default
+, the first where the man has the telescope, the second where the woman
+ has the telescope.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ The man saw the woman with his telescope.
+ The man saw the woman holding the telescope.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q2.
+ For each of the three ambiguous newspaper headlines I stated in the lecture,
+ rewrite it in a way that avoids the amusing second meaning, while retaining
+ the brevity of a typical headline:
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) Sisters reunited after ten years in checkout line at Safeway.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) Large hole appears in High Street.
+ City authorities are looking into it.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) Mayor says bus passengers should be belted.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) Sisters reunited at a checkout line in Safeway after ten years apart.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) Large hole appears in High Street.
+ City authorities are looking into the cause of it.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) Mayor says bus passengers should wear seat belts.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q3.
+ The following notice was posted on the wall of a hospital emergency room.
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+
+\shape smallcaps
+NO HEAD INJURY IS TOO TRIVIAL TO IGNORE.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+ALL HEAD INJURIES SHOULD NOT BE IGNORED
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q4.
+ You often see the following notice posted in elevators:
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+IN CASE OF FIRE, DO NOT USE ELEVATOR
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A4.
+ Don't use the elevator otherwise there might be a fire.
+ If there is a fire, don't use the elevator.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q5.
+ Official documents often contain one or more pages that are empty apart
+ from one sentence at the bottom:
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+
+\shape italic
+This page intentionally left blank.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A5.
+ If the sentence were true, then the page would've been truly blank, yet
+ it is not.
+ The purpose of making such a statement is to indicate that the lack of
+ content on the page is not due to some printing error.
+ A more true sentence would read:
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+
+\shape italic
+This page intentionally lacks content.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q6.
+ Find (and provide citations for) three examples of published sentences
+ whose literal meaning is (clearly) not what the writer intended.
+ [This is much easier than you might think.
+ Ambiguity is very common.]
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A6.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+GOP Lawmakers Grill IRS Chief Over Lost Emails.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The Wall Street Journal
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Girl Hit By Car In Hospital.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Edinburgh Evening News
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Robber Jailed For Shooting Dead Witness.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Daily Telegraph
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q7.
+ Comment on the sentence “The temperature is hot today.” You hear people
+ say things like this all the time, and everyone understands what is meant.
+ But using language in this sloppy way in mathematics would be disastrous.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A7.
+ The temperature is 
+\begin_inset Quotes eld
+\end_inset
+
+hot today
+\begin_inset Quotes erd
+\end_inset
+
+? 
+\begin_inset Quotes eld
+\end_inset
+
+Hot today
+\begin_inset Quotes erd
+\end_inset
+
+ is not a number.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q8.
+ How would you show that not every number of the form 
+\begin_inset Formula $N=(p_{1}\cdot p_{2}\cdot p_{3}\cdot\ldots\,\cdot p_{n})+1$
+\end_inset
+
+ is prime, where 
+\begin_inset Formula $p_{1},\,p_{2},\,p_{3},\ldots\,,p_{n},\ldots$
+\end_inset
+
+ is the list of all prime numbers? 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A8.
+ Take for example 
+\begin_inset Formula $n=6$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $N=(p_{1}\cdot p_{2}\cdot p_{3}\cdot p_{4}\cdot p_{5}\cdot p_{6})+1=(2\times3\times5\times7\times11\times13)+1=30031=59\times509$
+\end_inset
+
+ is 
+\shape italic
+not
+\shape default
+ prime.
+\end_layout
+
+\begin_layout Verse
+JUST FOR FUN
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q1.
+ Provide a context and a sentence within that context, where the word 
+\shape italic
+and
+\shape default
+ occurs five times in succession, with no other word between those five
+ occurrences.
+ (You are allowed to use punctuation.)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ And And and And And.
+ (
+\emph on
+And And
+\emph default
+ is a name)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Q2.
+ Provide a context and a sentence within that context, where the words 
+\emph on
+and
+\emph default
+, 
+\emph on
+or
+\emph default
+, 
+\emph on
+and
+\emph default
+, 
+\emph on
+or
+\emph default
+, 
+\emph on
+and
+\emph default
+ occur in that order, with no other word between them.
+ (Again, you can use punctuation.)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ And Or and Or And.
+ (
+\emph on
+And Or
+\emph default
+ and 
+\emph on
+Or And
+\emph default
+ are names)
+\end_layout
+
+\end_body
+\end_document
