@@ -142,7 +142,7 @@ A1.
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 (f) TRUE ( 
-\begin_inset Formula $6|n\Longrightarrow(n=2k)\land3|n$
+\begin_inset Formula $6|n\Longrightarrow2|n\land3|n$
 \end_inset
 
  )
@@ -218,7 +218,7 @@ A2.
 \labelwidthstring 00.00.0000
 (f) TRUE.
  ( 
-\begin_inset Formula $(n=2k)\land3|n\Longrightarrow6|n$
+\begin_inset Formula $2|n\land3|n\Longrightarrow6|n$
 \end_inset
 
  )
