@@ -1,0 +1,697 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Assignment 6 (for Lecture 6) Solutions
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ 
+\begin_inset Formula $\neg[\exists xA(x)]$
+\end_inset
+
+ means that it is not the case that there exists an 
+\begin_inset Formula $x$
+\end_inset
+
+ such that 
+\begin_inset Formula $A(x)$
+\end_inset
+
+ is true.
+ This is the same as saying no such 
+\begin_inset Formula $x$
+\end_inset
+
+ exists such that 
+\begin_inset Formula $A(x)$
+\end_inset
+
+ is true.
+ In symbols, this is the same as 
+\begin_inset Formula $\forall x[\neg A(x)]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ Suppose there exists an even prime 
+\begin_inset Formula $p$
+\end_inset
+
+.
+ By the definition of an even number, 
+\begin_inset Formula $2|p$
+\end_inset
+
+, or 
+\begin_inset Formula $p=2n$
+\end_inset
+
+ for some 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+.
+ But if 
+\begin_inset Formula $p$
+\end_inset
+
+ is to be prime, it cannot have any factors other than 
+\begin_inset Formula $1$
+\end_inset
+
+ and itself.
+ Since this is not true, our original assumption must have been false, and
+ thus we can conclude that there is no even prime.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) 
+\begin_inset Formula $(\forall p)[Student(p)\Longrightarrow LikesPizza(p)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) 
+\begin_inset Formula $(\exists p)[Friend(p)\Longrightarrow\neg Car(p)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) 
+\begin_inset Formula $(\exists a)[Elephant(a)\Longrightarrow\neg LikesMuffins(a)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) 
+\begin_inset Formula $(\forall g_{f})[Triangle(g_{f})\Longrightarrow Isosceles(g_{f})]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(e) 
+\begin_inset Formula $(\exists s)[StudentInRoster(s)\Longrightarrow\neg PresentToday(s)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(f) 
+\begin_inset Formula $(\forall p_{1})[(\exists p_{2})Loves(p_{1},p_{2})]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(g) 
+\begin_inset Formula $\neg(\exists p_{1})[(\forall p_{2})Loves(p_{1},p_{2})]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(h) 
+\begin_inset Formula $(\forall p)[(Man(p)\land Comes(p))\Longrightarrow(\forall p)(Woman(p)\Longrightarrow Leaves(p))]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(i) 
+\begin_inset Formula $(\forall p)[Tall(p)\lor Short(p)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(j) 
+\begin_inset Formula $(\forall p)[Tall(p)]\lor(\forall p)[Short(p)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(k) 
+\begin_inset Formula $\neg(\forall s)[Precious(s)\Longrightarrow Beautiful(s)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(l) 
+\begin_inset Formula $(\forall p)[\neg LovesMe(p)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(m) 
+\begin_inset Formula $(\exists s)[American(s)\Longrightarrow Poisonous(s)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(n) 
+\begin_inset Formula $(\exists s)[(Snake(s)\land American(s)\Longrightarrow Poisonous(s)]$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A4.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) 
+\begin_inset Formula $(\exists p)[Student(p)\land\neg LikesPizza(p)]$
+\end_inset
+
+.
+ There exists a who does not like pizza.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) 
+\begin_inset Formula $(\forall p)[Friend(p)\land Car(p)]$
+\end_inset
+
+.
+ All my friends have a car.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) 
+\begin_inset Formula $(\forall a)[Elephant(a)\land LikesMuffins(a)]$
+\end_inset
+
+.
+ All elephants like muffins.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) 
+\begin_inset Formula $(\exists g_{f})[Triangle(g_{f})\land\neg Isosceles(g_{f})]$
+\end_inset
+
+.
+ There is a triangle that is not isosceles.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(e) 
+\begin_inset Formula $(\forall s)[StudentInRoster(s)\land PresentToday(s)]$
+\end_inset
+
+.
+ All the students in the class are here today.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(f) 
+\begin_inset Formula $(\exists p_{1})[(\forall p_{2})\neg Loves(p_{1},p_{2})]$
+\end_inset
+
+.
+ There is someone is loves no one.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(g) 
+\begin_inset Formula $(\exists p_{1})[(\forall p_{2})Loves(p_{1},p_{2})]$
+\end_inset
+
+.
+ There is someone who loves everyone.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(h) 
+\begin_inset Formula $(\exists p)[(Man(p)\land Comes(p))\land(\exists p)(Woman(p)\land\neg Leaves(p))]$
+\end_inset
+
+.
+ There is a man who comes and a woman who doesn't leave.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(i) 
+\begin_inset Formula $(\exists p)[\neg Tall(p)\land\neg Short(p)]$
+\end_inset
+
+.
+ There's someone who is neither tall nor short.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(j) 
+\begin_inset Formula $(\exists p)[\neg Tall(p)]\land(\exists p)[\neg Short(p)].$
+\end_inset
+
+ There's someone who isn't tall and there's someone who isn't short.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(k) 
+\begin_inset Formula $(\forall s)[Precious(s)\Longrightarrow Beautiful(s)]$
+\end_inset
+
+.
+ All precious stones are beautiful.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(l) 
+\begin_inset Formula $(\exists p)[LovesMe(p)]$
+\end_inset
+
+.
+ There's someone who loves me.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(m) 
+\begin_inset Formula $(\forall s)[American(s)\land\neg Poisonous(s)]$
+\end_inset
+
+.
+ All American snakes are not poisonous.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(n) 
+\begin_inset Formula $(\forall s)[((\neg Snake(s)\lor\neg American(s))\land\neg Poisonous(s)]$
+\end_inset
+
+.
+ All animals are not poisonous, and either not snakes or not American.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A5.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) False.
+ (
+\begin_inset Formula $x=\frac{2}{3}\not\in\mathbb{N}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) False.
+ (
+\begin_inset Formula $x=\sqrt{2}\not\in\mathbb{Q}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) True.
+ (The formula is given)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) True.
+ (The formula is given)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(e) False.
+ (If 
+\begin_inset Formula $x=0$
+\end_inset
+
+, it is trivially true.
+ If 
+\begin_inset Formula $x\neq0$
+\end_inset
+
+, then 
+\begin_inset Formula $y=z$
+\end_inset
+
+, but cannot find one 
+\begin_inset Formula $y$
+\end_inset
+
+ such that 
+\begin_inset Formula $y=z$
+\end_inset
+
+, for all 
+\begin_inset Formula $z$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(f) False.
+ (We can simplify to 
+\begin_inset Formula $y=z$
+\end_inset
+
+, but cannot find one prime 
+\begin_inset Formula $y$
+\end_inset
+
+ such that 
+\begin_inset Formula $y=z$
+\end_inset
+
+, for all prime 
+\begin_inset Formula $z$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(g) False.
+ (Choose 
+\begin_inset Formula $x=-1$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(h) True.
+ (The antecedent is always false)
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A6.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) 
+\begin_inset Formula $(\forall x\in\mathbb{N})[2x+3\neq5x+1]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) 
+\begin_inset Formula $(\forall x\in\mathbb{Q})[x^{2}\neq2]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) 
+\begin_inset Formula $(\exists x\in\mathbb{R})(\forall y\in\mathbb{R})[y\neq x^{2}]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) 
+\begin_inset Formula $(\exists x\in\mathbb{N})(\forall y\in\mathbb{N})[y\neq x^{2}]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(e) 
+\begin_inset Formula $(\exists x\in\mathbb{R})(\forall y\in\mathbb{R})(\exists z\in\mathbb{R})[xy\neq xz]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(f) 
+\begin_inset Formula $(\exists x\in\mathbb{P})(\forall y\in\mathbb{P})(\exists z\in\mathbb{P})[xy\neq xz]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(g) 
+\begin_inset Formula $(\exists x\in\mathbb{R})[(x<0)\land(\forall y\in\mathbb{R})(y^{2}\neq x)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(h) 
+\begin_inset Formula $(\exists x\in\mathbb{R}_{+})[(x<0)\land(\forall y\in\mathbb{R}_{+})(y^{2}\neq x)]$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A7.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) 
+\begin_inset Formula $(\exists x\in\mathbb{N})(\forall y\in\mathbb{N})[x+y\neq1]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) 
+\begin_inset Formula $(\exists x>0)(\forall y<0)[x+y\neq0]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) 
+\begin_inset Formula $(\forall x\in\mathbb{R})(\exists\epsilon>0)[(x\leq-\epsilon)\lor(x\geq\epsilon)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) 
+\begin_inset Formula $(\exists x\in\mathbb{N})(\exists y\in\mathbb{N})(\forall z\in\mathbb{N})[x+y\neq z^{2}]$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A8.
+ 
+\begin_inset Formula $(\forall t)(\exists p)[\neg Fool(p,t)]\lor(\forall p)(\exists t)[Fool(p,t)]\lor(\forall p)(\forall t)[Fool(p,t)]$
+\end_inset
+
+.
+ You cannot fool some people all the time or you can fool everyone some
+ of the time or you can fool everyone all the time.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A9.
+ 
+\begin_inset Formula $(\exists\epsilon>0)(\forall\delta>0)(\exists x)[(|x-a|<\delta)\land(|f(x)-f(a)|\geq\epsilon)]$
+\end_inset
+
+.
+ There exists an 
+\begin_inset Formula $\epsilon>0$
+\end_inset
+
+ for all 
+\begin_inset Formula $\delta>0$
+\end_inset
+
+ such that one may find an 
+\begin_inset Formula $x$
+\end_inset
+
+ such that 
+\begin_inset Formula $|x-a|<\delta$
+\end_inset
+
+ and 
+\begin_inset Formula $|f(x)-f(a)|\geq\epsilon$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
