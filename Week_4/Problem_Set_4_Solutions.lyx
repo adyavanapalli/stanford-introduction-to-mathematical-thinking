@@ -89,6 +89,160 @@ A1.
 \labelwidthstring 00.00.0000
 A2.
  
+\begin_inset Formula $(\forall p)(\exists q)(\exists t)[W(p,q,t)]$
+\end_inset
+
+ means for all tennis players, there exists a player that they win a game
+ against.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) Same.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) Not the same.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) Not the same.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) Not the same.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(e) Not the same.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) Could be true.
+ 
+\begin_inset Formula $(\forall p)(\exists q)(\exists t)[W(p,q,t)]$
+\end_inset
+
+ means for all tennis players, there exists a player that they win a game
+ against.
+ If there were two tennis players, then one could beat the other one time,
+ and the other could win another time.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) Not true.
+ 
+\begin_inset Formula $(\forall p)(\forall q)(\exists t)[W(p,q,t)]$
+\end_inset
+
+ means for all pairs of tennis players 
+\begin_inset Formula $p$
+\end_inset
+
+ and 
+\begin_inset Formula $q$
+\end_inset
+
+, there exists a game where 
+\begin_inset Formula $p$
+\end_inset
+
+ beats 
+\begin_inset Formula $q$
+\end_inset
+
+.
+ This must mean 
+\begin_inset Formula $p$
+\end_inset
+
+ beats themselves, which is not possible (I think?).
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) Could be true.
+ 
+\begin_inset Formula $(\forall q)(\exists p)(\exists t)[W(p,q,t)]$
+\end_inset
+
+ means for all tennis players, there exists a player that beats them in
+ a game.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A4.
+ (a).
+ 
+\begin_inset Formula $(\forall x)(\forall y)[(\exists z)(L(x,z)\land L(z,x))\Longrightarrow L(y,x)]$
+\end_inset
+
+ means for everyone who is a lover, they are loved by everyone.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A5.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) True.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) True.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) True.
+ One can choose one such 
+\begin_inset Formula $y=x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) False.
+ Suppose 
+\begin_inset Formula $y=x$
+\end_inset
+
+, then 
+\begin_inset Formula $\neg[(y<x)\lor(x<y)]$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A6.
+ 20 pts.
+ Logical Correctness (4 pts) + Clarity (4 pts) + Opening (2 pts) + Stating
+ the conclusion (4 pts) + Reasons (2 pts) + Overall valuation (4 pts).
 \end_layout
 
 \end_body
