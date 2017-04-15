@@ -1,0 +1,343 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Assignment 7 (for Lecture 7) Solutions
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ False.
+ An ostrich is bird that cannot fly.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ False.
+ Choose 
+\begin_inset Formula $x=y=0$
+\end_inset
+
+.
+ It is not the case that 
+\begin_inset Formula $(0-0)=0>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+ Suppose there are two rationals 
+\begin_inset Formula $\nicefrac{a}{b},\nicefrac{p}{q}$
+\end_inset
+
+ such that 
+\begin_inset Formula $\nicefrac{a}{b}<\nicefrac{p}{q}$
+\end_inset
+
+ (
+\begin_inset Formula $b\neq0\land q\neq0$
+\end_inset
+
+).
+ Then there exists another rational between the two rationals given by:
+ 
+\begin_inset Formula $\frac{aq+bp}{2bq}$
+\end_inset
+
+.
+ We show that this construction obeys the following relation: 
+\begin_inset Formula $\nicefrac{a}{b}<\frac{aq+bp}{2bq}<\nicefrac{p}{q}$
+\end_inset
+
+.
+ We have 
+\begin_inset Formula $\nicefrac{a}{b}=\frac{aq}{bq}$
+\end_inset
+
+, and 
+\begin_inset Formula $\frac{aq}{bq}<\frac{aq+bp}{2bq}\iff\frac{1}{2}\frac{aq}{bq}<\frac{1}{2}\frac{bp}{bq}\iff\nicefrac{a}{b}<\nicefrac{p}{q}$
+\end_inset
+
+, which is true by assumption.
+ Similarly, we have 
+\begin_inset Formula $\nicefrac{p}{q}=\frac{bp}{bq}$
+\end_inset
+
+, and 
+\begin_inset Formula $\frac{aq+bp}{2bq}<\frac{bp}{bq}\iff\frac{1}{2}\frac{aq}{bq}<\frac{1}{2}\frac{bp}{bq}\iff\nicefrac{a}{b}<\nicefrac{p}{q},$
+\end_inset
+
+which is true by assumption.
+ Thus we have found a rational between the two rationals.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A4.
+ If we construct a truth table for the following expression: 
+\begin_inset Formula $[(\phi\Longrightarrow\psi)\land(\psi\Longrightarrow\phi)]\Longrightarrow(\phi\iff\psi)$
+\end_inset
+
+, we will obtain a tautology.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A5.
+ We know that 
+\begin_inset Formula $[(\neg\phi)\Longrightarrow(\neg\psi)]\iff(\psi\Longrightarrow\phi)$
+\end_inset
+
+ because it is the contrapositive.
+ Then from A4, we have that 
+\begin_inset Formula $[(\phi\Longrightarrow\psi)\land(\neg\phi\Longrightarrow\neg\psi)]\Longrightarrow(\phi\iff\psi)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A6.
+ The only way to ensure that each investor receives the least possible amount
+ of money is to split the payout evenly.
+ But if we split the payout evenly, each investor will receive $400,000.
+ Since this is the only way to ensure each investor receives the least amount
+ of money, we cannot do better.
+ And so, at least one investor receives at least $400,000.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A7.
+ Suppose that 
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+ is rational.
+ Then it can be represented by a fraction written in lowest terms, 
+\begin_inset Formula $\nicefrac{a}{b}$
+\end_inset
+
+.
+ Then we have 
+\begin_inset Formula $\sqrt{3}=\nicefrac{a}{b}\iff3=\nicefrac{a^{2}}{b^{2}}\iff3b^{2}=a^{2}$
+\end_inset
+
+.
+ This means that 
+\begin_inset Formula $3|a^{2}$
+\end_inset
+
+, and 
+\begin_inset Formula $3|a$
+\end_inset
+
+.
+ Thus, 
+\begin_inset Formula $a=3k$
+\end_inset
+
+ for some 
+\begin_inset Formula $k\in\mathbb{N}$
+\end_inset
+
+.
+ And so we have 
+\begin_inset Formula $3b^{2}=9k^{2}\iff b^{2}=3k^{2}$
+\end_inset
+
+.
+ This means that 
+\begin_inset Formula $3|b^{2}$
+\end_inset
+
+, and 
+\begin_inset Formula $3|b$
+\end_inset
+
+.
+ Thus, 
+\begin_inset Formula $b=3n$
+\end_inset
+
+ for some 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+.
+ But if 
+\begin_inset Formula $(a=3k)\land(b=3n)$
+\end_inset
+
+, then 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+ have a common factor, and thus 
+\begin_inset Formula $\nicefrac{a}{b}$
+\end_inset
+
+ is not in lowest terms.
+ Our original assumption is wrong, and thus 
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+ is irrational.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A8.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) If the Yuan rises, the Dollar will fall.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) 
+\begin_inset Formula $(\forall x,y\in\mathbb{R})[(-y<-x)\Longrightarrow(x<y)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) If two triangles have the same area they are congruent.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) If 
+\begin_inset Formula $b^{2}\ge4ac$
+\end_inset
+
+, then 
+\begin_inset Formula $ax^{2}+bx+c=0$
+\end_inset
+
+ has a solution.
+ (
+\begin_inset Formula $\forall a,b,c\in\mathbb{R}$
+\end_inset
+
+ and 
+\begin_inset Formula $x\in R\setminus\left\{ 0\right\} $
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(e) If the opposite angles in a quadrilateral ABCD are pairwise equal, then
+ the opposite sides of ABCD are pairwise equal.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(f) If the four angles in quadrilateral ABCD are equal, then all four sides
+ of ABCD are equal.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(g) 
+\begin_inset Formula $(\forall n\in\mathbb{N})[3|(n^{2}+5)\Longrightarrow\neg(n|3)]$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A9.
+ 
+\end_layout
+
+\end_body
+\end_document
