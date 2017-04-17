@@ -651,7 +651,20 @@ A11.
 \labelwidthstring 00.00.0000
 (6) Could be rational.
  Counterexample.
- Let 
+ If 
+\begin_inset Formula $r=\sqrt{2}^{\sqrt{2}}$
+\end_inset
+
+ is rational, then let 
+\begin_inset Formula $r=s=\sqrt{2}\in\mathbb{R}\setminus\mathbb{Q}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $r=\sqrt{2}^{\sqrt{2}}$
+\end_inset
+
+ is irrational, let 
 \begin_inset Formula $r=\sqrt{2}^{\sqrt{2}},\ s=\sqrt{2}$
 \end_inset
 
