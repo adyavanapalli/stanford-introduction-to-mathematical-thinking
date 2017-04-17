@@ -1,0 +1,194 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Problem Set 5 (for Lecture 7) Solutions
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ No.
+ One must prove the converse is also true to prove equivalence.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ (a)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+ True.
+ This is equivalent to saying 
+\begin_inset Formula $(\phi\Longrightarrow\psi)\lor(\psi\Longrightarrow\phi)$
+\end_inset
+
+, which can be simplified to 
+\begin_inset Formula $\neg\phi\lor\psi\lor\neg\psi\lor\phi$
+\end_inset
+
+, which is a tautology.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A4.
+ Yes.
+ 
+\begin_inset Formula $\neg(\phi\Longrightarrow\psi)\iff\neg(\neg\phi\lor\psi)\iff\phi\land\neg\psi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A5.
+ Yes.
+ 
+\begin_inset Formula $[(\phi\lor\psi)\Longrightarrow\theta]\iff[\neg(\phi\lor\psi)\lor\theta]\iff[(\neg\phi\land\neg\psi)\lor\theta]\iff[(\neg\phi\lor\theta)\land(\neg\psi\lor\theta)]\iff[(\phi\Longrightarrow\theta)\land(\psi\Longrightarrow\theta)]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A6.
+ True.
+ Proof by contradiction.
+ Suppose there are a finite number of natural numbers such that 
+\begin_inset Formula $\sqrt{n}$
+\end_inset
+
+ is rational, and you can list them in a set in increasing order 
+\begin_inset Formula $\{a_{1},a_{2},a_{3},\ldots,a_{n}\}$
+\end_inset
+
+.
+ Take another natural number formed using the last element 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+, and square it to obtain 
+\begin_inset Formula $a_{n}^{2}$
+\end_inset
+
+.
+ We have that 
+\begin_inset Formula $a_{n}^{2}>a_{n},\ \forall a_{n}>1$
+\end_inset
+
+, but 
+\begin_inset Formula $\sqrt{a_{n}^{2}}=a_{n}\in\mathbb{Q}$
+\end_inset
+
+.
+ Hence, our list was incomplete and thus we have a contradiction.
+ Our assumption that there are a finite number of natural numbers such that
+ 
+\begin_inset Formula $\sqrt{n}$
+\end_inset
+
+ is rational is false, and thus there are an infinite number of naturals
+ numbers such that 
+\begin_inset Formula $\sqrt{n}$
+\end_inset
+
+ is rational.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A7.
+ The error is at the step where the square root is taken.
+ In general, it is not the case that 
+\begin_inset Formula $\sqrt{x^{2}}=x$
+\end_inset
+
+ because inside the square root, the squared number will never be negative
+ even if the number is negative.
+ The correct result of the square root is 
+\begin_inset Formula $\sqrt{x^{2}}=|x|$
+\end_inset
+
+.
+ I would give this student a grade of a 14.
+ Logical Correctness (0 pts) + Clarity (4 pts) + Opening (2 pts) + Stating
+ the conclusion (4 pts) + Reasons (4 pts) + Overall valuation (0 pts).
+\end_layout
+
+\end_body
+\end_document
