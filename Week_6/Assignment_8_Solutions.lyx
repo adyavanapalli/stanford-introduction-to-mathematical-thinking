@@ -1,0 +1,608 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Assignment 8 (for Lecture 8) Solutions
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ True.
+ Construction of an example.
+ If we let 
+\begin_inset Formula $m=0$
+\end_inset
+
+, we have the claim that 
+\begin_inset Formula $n^{2}$
+\end_inset
+
+ is a perfect square, which is true as 
+\begin_inset Formula $(n)^{2}=n^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ True.
+ Construction of an example.
+ The claim is 
+\begin_inset Formula $(\forall m\in\mathbb{N})(\exists n\in\mathbb{N})[PerfectSquare(mn+1)]$
+\end_inset
+
+.
+ If we let 
+\begin_inset Formula $n=m+2$
+\end_inset
+
+, 
+\begin_inset Formula $mn+1$
+\end_inset
+
+ becomes 
+\begin_inset Formula $m^{2}+2m+1=(m+1)^{2}$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $m\in\mathbb{N}$
+\end_inset
+
+, we have that 
+\begin_inset Formula $n=m+2\in\mathbb{N}$
+\end_inset
+
+ also.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+ True.
+ Construction of an example The claim is 
+\begin_inset Formula $(\forall n\in\mathbb{N})(\exists b,c\in\mathbb{N})[Composite(f(n)=n^{2}+bn+c)]$
+\end_inset
+
+.
+ If we let 
+\begin_inset Formula $b=2,\ c=1$
+\end_inset
+
+, the quadratic becomes 
+\begin_inset Formula $f(n)=n^{2}+2n+1=(n+1)^{2}$
+\end_inset
+
+.
+ We know that 
+\begin_inset Formula $f(n)$
+\end_inset
+
+ is composite because it is a perfect square i.e.
+ the factors of 
+\begin_inset Formula $f(n)$
+\end_inset
+
+ are 
+\begin_inset Formula $n$
+\end_inset
+
+ and 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A4.
+ The statement is 
+\begin_inset Formula $(\forall n=2k,\ k\in\{2,3,4,\ldots)[(\exists p_{1},p_{2}\in\mathbb{P})(n=p_{1}+p_{2})]\Longrightarrow(\forall m=2k+1,\ k\in\{3,4,5,\ldots\})(\exists p_{1},p_{2},p_{3}\in\mathbb{P})[m=p_{1}+p_{2}+p_{3}]$
+\end_inset
+
+.
+ We prove this by construction.
+ If 
+\begin_inset Formula $m$
+\end_inset
+
+ is an odd number greater than 5, then it can be written as 
+\begin_inset Formula $m=2k+1,\ k\in\{3,4,5,\ldots\}$
+\end_inset
+
+.
+ If we subtract 
+\begin_inset Formula $3$
+\end_inset
+
+ from 
+\begin_inset Formula $m$
+\end_inset
+
+, we obtain 
+\begin_inset Formula $m-3=2k+1-3=2k-2=2(k-1),\ k\in\{3,4,5,\ldots\}$
+\end_inset
+
+, but we know that since 
+\begin_inset Formula $2|(m-3)$
+\end_inset
+
+ and 
+\begin_inset Formula $m-3\in\{4,6,8,\ldots\}$
+\end_inset
+
+, we can write 
+\begin_inset Formula $m-3=p_{1}+p_{2}$
+\end_inset
+
+, where 
+\begin_inset Formula $p_{1},p_{2}\in\mathbb{P}$
+\end_inset
+
+.
+ Thus we have 
+\begin_inset Formula $m-3=p_{1}+p_{2}\iff m=p_{1}+p_{2}+3$
+\end_inset
+
+, but since 
+\begin_inset Formula $3\in\mathbb{P}$
+\end_inset
+
+, we have 
+\begin_inset Formula $m=p_{1}+p_{2}+p_{3}$
+\end_inset
+
+.
+ Hence, we have proved that 
+\begin_inset Formula $m$
+\end_inset
+
+ can be written as the sum of three prime numbers.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A5.
+ The claim is that 
+\begin_inset Formula $P(n)=\stackrel[i=1]{n}{\sum}2i-1=n^{2}$
+\end_inset
+
+.
+ We prove this by induction.
+ The base case is 
+\begin_inset Formula $P(1)=\stackrel[i=1]{1}{\sum}2i-1=2-1=1$
+\end_inset
+
+, which is true.
+ We now assume that for some 
+\begin_inset Formula $k$
+\end_inset
+
+, 
+\begin_inset Formula $P(k)$
+\end_inset
+
+ is true, and try to prove 
+\begin_inset Formula $P(k+1)$
+\end_inset
+
+.
+ For 
+\begin_inset Formula $P(k)=1+3+\ldots+(2k-1)$
+\end_inset
+
+, we may obtain the next term by adding 
+\begin_inset Formula $2k+1$
+\end_inset
+
+.
+ By the induction hypothesis, 
+\begin_inset Formula $P(k)=k^{2}$
+\end_inset
+
+, and adding the next term, we have 
+\begin_inset Formula $k^{2}+2k+1=(k+1)^{2}$
+\end_inset
+
+, which is precisely 
+\begin_inset Formula $P(k+1)$
+\end_inset
+
+.
+ Hence, with the base case and induction hypothesis, we have proved 
+\begin_inset Formula $P(n)\ \forall n\in\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A6.
+ The claim is that 
+\begin_inset Formula $P(n)=1^{2}+2^{2}+\ldots+n^{2}=\frac{1}{6}n(n+1)(2n+1)$
+\end_inset
+
+.
+ We prove this by induction.
+ The base case is 
+\begin_inset Formula $1^{2}=P(1)=\frac{1}{6}1(2)(3)$
+\end_inset
+
+, which is true.
+ We now assume for some 
+\begin_inset Formula $k$
+\end_inset
+
+ that 
+\begin_inset Formula $P(k)$
+\end_inset
+
+ is true, and try to prove 
+\begin_inset Formula $P(k+1)$
+\end_inset
+
+.
+ For 
+\begin_inset Formula $P(k)=1^{2}+2^{2}+\ldots+k^{2}$
+\end_inset
+
+, we may obtain the next term by adding 
+\begin_inset Formula $(k+1)^{2}=k^{2}+2k+1$
+\end_inset
+
+.
+ By the induction hypothesis, 
+\begin_inset Formula $P(k)=\frac{k^{3}}{3}+\frac{k^{2}}{2}+\frac{k}{6}$
+\end_inset
+
+, and adding the next term, we have 
+\begin_inset Formula $\frac{k^{3}}{3}+\frac{k^{2}}{2}+\frac{k}{6}+k^{2}+2k+1=\frac{k^{3}}{3}+\frac{3k^{2}}{2}+\frac{13k}{6}+1=\frac{1}{6}(k+1)((k+1)+1)(2(k+1)+1)$
+\end_inset
+
+, which is precisely 
+\begin_inset Formula $P(k+1)$
+\end_inset
+
+.
+ Hence, with the base case and induction hypothesis, we have proved 
+\begin_inset Formula $P(n)\ \forall n\in\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+OPTIONAL PROBLEMS
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ 
+\begin_inset Formula $(1+n)+(2+(n-1))+(3+(n-2))+\ldots+(n+1)=n(n+1)=2S\iff S=\frac{1}{2}n(n+1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ We can prove this using induction.
+ The statement is 
+\begin_inset Formula $(\forall n\in\mathbb{N}\setminus\{1,2\})P(n)$
+\end_inset
+
+, where 
+\begin_inset Formula $P(n)$
+\end_inset
+
+ means 
+\emph on
+for a collection of n points in a plane, not all collinear, there is a triangle
+ having three points as its vertices, which contains none of the other points
+ in its interior
+\emph default
+.
+ The base case is 
+\begin_inset Formula $P(n=3)$
+\end_inset
+
+, which is true because 
+\begin_inset Formula $3$
+\end_inset
+
+ non-collinear points in a plane trivially form a triangle with no other
+ points in its interior.
+ Now for the induction hypothesis, we assume 
+\begin_inset Formula $P(k)$
+\end_inset
+
+ is true for some 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ We may obtain the next term by adding a point on the plane.
+ There are two cases we must deal with.
+ In the first case, the added point is 
+\emph on
+not
+\emph default
+ within the triangle, and thus 
+\begin_inset Formula $P(k+1)$
+\end_inset
+
+ is trivially true.
+ In the second case, the added point 
+\emph on
+is
+\emph default
+ within the triangle.
+ But if this is so, we may form another triangle by connecting any two vertices
+ of the previous triangle to the new point (Figure 1).
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename triangle.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ This new triangle contains no other points in its interior, and thus 
+\begin_inset Formula $P(k+1)$
+\end_inset
+
+ is also true.
+ Hence, with the base case and induction hypothesis, we have proved 
+\begin_inset Formula $P(n)\ \forall n\in\mathbb{N}\setminus\{1,2\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) The base case is 
+\begin_inset Formula $P(n=1)$
+\end_inset
+
+, or 
+\begin_inset Formula $3|(4^{1}-1)$
+\end_inset
+
+, which is true.
+ We assume for some 
+\begin_inset Formula $k$
+\end_inset
+
+, 
+\begin_inset Formula $P(k)$
+\end_inset
+
+ is true i.e.
+ 
+\begin_inset Formula $3|(4^{k}-1)$
+\end_inset
+
+.
+ The next term is given by 
+\begin_inset Formula $4^{k+1}-1=4\cdot4^{k}-1$
+\end_inset
+
+.
+ We may rewrite this term as 
+\begin_inset Formula $4\cdot4^{k}-4+3=4(4^{k}-1)+3$
+\end_inset
+
+.
+ The second term is divisible by 
+\begin_inset Formula $3$
+\end_inset
+
+, but first term is also divisible by 
+\begin_inset Formula $3$
+\end_inset
+
+ since 
+\begin_inset Formula $3|(4^{k}-1)$
+\end_inset
+
+ by the induction hypothesis.
+ Hence, with the base case and induction hypothesis, we have proved 
+\begin_inset Formula $P(n)\ \forall n\in\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) The base case is 
+\begin_inset Formula $P(n=5)$
+\end_inset
+
+, or 
+\begin_inset Formula $6!=720>2^{8}=256$
+\end_inset
+
+, which is true.
+ We assume for some 
+\begin_inset Formula $k$
+\end_inset
+
+, 
+\begin_inset Formula $P(k)$
+\end_inset
+
+ is true i.e.
+ 
+\begin_inset Formula $(k+1)!>2^{k+3}$
+\end_inset
+
+.
+ If we multiply both sides by 
+\begin_inset Formula $k+2$
+\end_inset
+
+, we obtain 
+\begin_inset Formula $(k+2)(k+1)!=(k+2)!>(k+2)\cdot2^{k+3}=k\cdot2^{k+3}+2\cdot2^{k+3}=k\cdot2^{k+3}+2^{k+4}>2^{(k+1)+3}$
+\end_inset
+
+, which is precisely the induction hypothesis.
+ Hence, with the base case the induction hypothesis, we have proved 
+\begin_inset Formula $P(n)\ \forall n\in\mathbb{N}\setminus\{1,2,3,4\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) The base case is 
+\begin_inset Formula $1\cdot1!=P(n=1)=2!-1$
+\end_inset
+
+, which is true.
+ We assume for some 
+\begin_inset Formula $k$
+\end_inset
+
+, 
+\begin_inset Formula $P(k)$
+\end_inset
+
+ is true.
+ We obtain the next term in the sum by adding 
+\begin_inset Formula $(k+1)\cdot(k+1)!$
+\end_inset
+
+ to 
+\begin_inset Formula $P(k)$
+\end_inset
+
+, so we get 
+\begin_inset Formula $(k+1)!-1+(k+1)\cdot(k+1)!=(k+1)![1+(k+1)]-1=(k+2)!-1$
+\end_inset
+
+, which is precisely 
+\begin_inset Formula $P(k+1)$
+\end_inset
+
+.
+ Hence, with the base case and induction hypothesis, we have proved 
+\begin_inset Formula $P(n)\ \forall n\in\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
