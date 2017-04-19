@@ -156,11 +156,11 @@ A3.
 \end_inset
 
  are 
-\begin_inset Formula $n$
+\begin_inset Formula $n+1$
 \end_inset
 
  and 
-\begin_inset Formula $n$
+\begin_inset Formula $n+1$
 \end_inset
 
 .
@@ -417,38 +417,6 @@ is
  within the triangle.
  But if this is so, we may form another triangle by connecting any two vertices
  of the previous triangle to the new point (Figure 1).
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename triangle.png
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
  This new triangle contains no other points in its interior, and thus 
 \begin_inset Formula $P(k+1)$
 \end_inset
@@ -604,5 +572,41 @@ A3.
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename triangle.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
