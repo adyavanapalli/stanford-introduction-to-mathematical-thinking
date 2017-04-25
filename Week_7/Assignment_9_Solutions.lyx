@@ -1,0 +1,347 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Assignment 9 (for Lecture 9) Solutions
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ 
+\begin_inset Formula $b|a$
+\end_inset
+
+ is a true or false statement.
+ It's equivalent to saying 
+\begin_inset Formula $b|a\iff(\exists n\in\mathbb{Z})[a=nb]$
+\end_inset
+
+.
+ 
+\begin_inset Formula $a/b$
+\end_inset
+
+ is more like an operation, and the result is an element of the rationals.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) False, because 
+\begin_inset Formula $b=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) True, 
+\begin_inset Formula $9|0$
+\end_inset
+
+ because 
+\begin_inset Formula $9\cdot0=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) False, because 
+\begin_inset Formula $b=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) True, because 
+\begin_inset Formula $1\cdot1=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(e) False, because 
+\begin_inset Formula $44=6\cdot7+2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(f) True, because 
+\begin_inset Formula $7\cdot(-6)=-42$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(g) True, because 
+\begin_inset Formula $(-7)\cdot(-7)=49$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(h) True, because 
+\begin_inset Formula $(-7)\cdot8=-56$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(i) True, because 
+\begin_inset Formula $1\cdot n=n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(j) True, because 
+\begin_inset Formula $n\cdot0=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(k) False, because one 
+\begin_inset Formula $n$
+\end_inset
+
+ will equal 
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) 
+\begin_inset Formula $a|0\iff(\exists n\in\mathbb{Z})[a\cdot n=0]$
+\end_inset
+
+, choose 
+\begin_inset Formula $n=0$
+\end_inset
+
+.
+ 
+\begin_inset Formula $a|a\iff(\exists n\in\mathbb{Z})[a\cdot n=a]$
+\end_inset
+
+, choose 
+\begin_inset Formula $n=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) We prove the reverse direction first.
+ If 
+\begin_inset Formula $a=\pm1$
+\end_inset
+
+, then 
+\begin_inset Formula $a|1$
+\end_inset
+
+ since 
+\begin_inset Formula $1\cdot1=1$
+\end_inset
+
+ and 
+\begin_inset Formula $(-1)\cdot(-1)=1$
+\end_inset
+
+ respectively.
+ Now, the other direction.
+ 
+\begin_inset Formula $(a|1)\iff(\exists n\in\mathbb{Z})[a\cdot n=1]$
+\end_inset
+
+, but the only solutions to this equation are when 
+\begin_inset Formula $a=1,\ n=1$
+\end_inset
+
+ and 
+\begin_inset Formula $a=-1,\ n=-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) 
+\begin_inset Formula $(a|b)\iff(\exists n\in\mathbb{Z})[a\cdot n=b]$
+\end_inset
+
+ and 
+\begin_inset Formula $(c|d)\iff(\exists m\in\mathbb{Z})[c\cdot m=d]$
+\end_inset
+
+.
+ If we multiply 
+\begin_inset Formula $b$
+\end_inset
+
+ and 
+\begin_inset Formula $d$
+\end_inset
+
+, we have 
+\begin_inset Formula $bd=a\cdot n\cdot c\cdot m=(nm)\cdot(ac)$
+\end_inset
+
+.
+ Since we have that 
+\begin_inset Formula $nm\cdot ac=bd$
+\end_inset
+
+, 
+\begin_inset Formula $ac|bd$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) 
+\begin_inset Formula $(a|b)\iff(\exists n\in\mathbb{Z})[a\cdot n=b]$
+\end_inset
+
+ and 
+\begin_inset Formula $(b|c)\iff(\exists m\in\mathbb{Z})[b\cdot m=c]$
+\end_inset
+
+.
+ If we rewrite 
+\begin_inset Formula $c$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $a$
+\end_inset
+
+, we have 
+\begin_inset Formula $c=bm=(an)m=anm$
+\end_inset
+
+.
+ Since we have that 
+\begin_inset Formula $a\cdot nm=c$
+\end_inset
+
+, 
+\begin_inset Formula $a|c$
+\end_inset
+
+ are required.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
