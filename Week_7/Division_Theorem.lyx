@@ -1,0 +1,281 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Division Theorem Proof
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Theorem
+\end_layout
+
+\begin_layout Standard
+\noindent
+Let 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+ be integers, with 
+\begin_inset Formula $b$
+\end_inset
+
+ being positive.
+ Then are are unique integers 
+\begin_inset Formula $q$
+\end_inset
+
+ and 
+\begin_inset Formula $r$
+\end_inset
+
+ such that 
+\begin_inset Formula $a=q\cdot b+r$
+\end_inset
+
+ and 
+\begin_inset Formula $0\leq r<b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Proof
+\end_layout
+
+\begin_layout Standard
+\noindent
+First we prove existence.
+ Take a set of non-negative integers of the form 
+\begin_inset Formula $\{a-k\cdot b\}$
+\end_inset
+
+.
+ By the well-ordering principle, every non-empty set of positive integers
+ contains a least element.
+ Thus, if we have a set of non-negative integers of the form 
+\begin_inset Formula $\{a-k\cdot b\}$
+\end_inset
+
+, we have pick the smallest one if we can show that this set is non-empty.
+ Choosing 
+\begin_inset Formula $k=-|a|$
+\end_inset
+
+, we have 
+\begin_inset Formula $a+|a|\cdot b$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $b\geq1$
+\end_inset
+
+, we have 
+\begin_inset Formula $a+|a|\cdot b\geq a+|a|\geq0$
+\end_inset
+
+.
+ Since for 
+\begin_inset Formula $k=-|a|$
+\end_inset
+
+, we have a positive integer, the set is non-empty.
+ Now suppose that the smallest such integer in 
+\begin_inset Formula $\{a-k\cdot b\}$
+\end_inset
+
+ occurs when 
+\begin_inset Formula $k=q$
+\end_inset
+
+, and let 
+\begin_inset Formula $a-q\cdot b=r$
+\end_inset
+
+.
+ Suppose that 
+\begin_inset Formula $r\geq b$
+\end_inset
+
+, then we have 
+\begin_inset Formula $r=a-q\cdot b\geq b$
+\end_inset
+
+.
+ We can write this as 
+\begin_inset Formula $a-q\cdot b-b\geq0\iff a-(q+1)\cdot b\geq0$
+\end_inset
+
+.
+ But since 
+\begin_inset Formula $q+1>q$
+\end_inset
+
+, 
+\begin_inset Formula $a-(q+1)\cdot b<a-q\cdot b\iff0<b$
+\end_inset
+
+.
+ But we already assumed 
+\begin_inset Formula $a-q\cdot b$
+\end_inset
+
+ was the smallest element.
+ This is a contradiction, and thus 
+\begin_inset Formula $r<b$
+\end_inset
+
+, and so 
+\begin_inset Formula $0\leq r<b$
+\end_inset
+
+.
+ Hence, we have proved existence.
+ Now we prove uniqueness.
+ Suppose there are integers 
+\begin_inset Formula $q_{1},q_{2},r_{1},r_{2}$
+\end_inset
+
+ satisfying 
+\begin_inset Formula $a=q_{1}\cdot b+r_{1}=q_{2}\cdot b+r_{2}$
+\end_inset
+
+ with 
+\begin_inset Formula $0\leq r_{1},r_{2}<b$
+\end_inset
+
+.
+ Then we can rewrite the above as 
+\begin_inset Formula $q_{1}\cdot b-q_{2}\cdot b=r_{1}-r_{2}\iff(q_{1}-q_{2})\cdot b=r_{1}-r_{2}$
+\end_inset
+
+, hence 
+\begin_inset Formula $r_{1}-r_{2}$
+\end_inset
+
+ is some multiple of 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ However, since 
+\begin_inset Formula $0\leq r_{1},r_{2}<b$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{2}$
+\end_inset
+
+ are integers, 
+\begin_inset Formula $r_{1}-r_{2}$
+\end_inset
+
+ must be 
+\begin_inset Formula $0$
+\end_inset
+
+.
+ Hence, we have 
+\begin_inset Formula $r_{1}=r_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $q_{1}=q_{2}$
+\end_inset
+
+.
+ Hence, we have proved uniqueness.
+ Since we have proved existence and uniqueness, we have proved the theorem.
+\end_layout
+
+\begin_layout Standard
+\noindent
+QED
+\end_layout
+
+\end_body
+\end_document
