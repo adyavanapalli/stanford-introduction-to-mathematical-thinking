@@ -261,7 +261,7 @@ A3.
 \begin_inset Formula $(a|1)\iff(\exists n\in\mathbb{Z})[a\cdot n=1]$
 \end_inset
 
-, but the only solutions to this equation are when 
+, but the only solutions to this equation in the integers are when 
 \begin_inset Formula $a=1,\ n=1$
 \end_inset
 
@@ -342,6 +342,115 @@ A3.
  are required.
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(e) By (f), we have 
+\begin_inset Formula $|a|\le|b|\land|a|\ge|b|$
+\end_inset
+
+, which implies that 
+\begin_inset Formula $|a|=|b|$
+\end_inset
+
+, which is true whenever 
+\begin_inset Formula $a=\pm b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(f) 
+\begin_inset Formula $(a|b)\iff(\exists n\in\mathbb{Z})[a\cdot n=b]$
+\end_inset
+
+.
+ If we take the absolute value of the equation we obtain 
+\begin_inset Formula $|a|\cdot|n|=|b|$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $|n|\ge1$
+\end_inset
+
+ by 
+\begin_inset Formula $a\ne0\Longrightarrow b\ne0$
+\end_inset
+
+, and 
+\begin_inset Formula $|b|\ge1$
+\end_inset
+
+, and thus we have 
+\begin_inset Formula $|a|\le|b|$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(g) 
+\begin_inset Formula $(a|b)\iff(\exists n\in\mathbb{Z})[a\cdot n=b]$
+\end_inset
+
+ and 
+\begin_inset Formula $(a|c)\iff(\exists m\in\mathbb{Z})[a\cdot m=c]$
+\end_inset
+
+.
+ If we add 
+\begin_inset Formula $b$
+\end_inset
+
+ and 
+\begin_inset Formula $c$
+\end_inset
+
+ together, we obtain 
+\begin_inset Formula $b+c=an+am=a(n+m)=a\cdot p$
+\end_inset
+
+, thus 
+\begin_inset Formula $a|(b+c)$
+\end_inset
+
+.
+ In fact, even if we introduce a constant factor to each dividend, we obtain
+ 
+\begin_inset Formula $bx+cy=anx+amy=a(nx+my)=ak$
+\end_inset
+
+, and so 
+\begin_inset Formula $a|(bx+cy)$
+\end_inset
+
+ also.
+\end_layout
+
 \end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+OPTIONAL PROBLEMS
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ Not even sure what the converse of the statement is...
+ Maybe later.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ Have a little clue, but not up for it now.
+ Maybe later.
+\end_layout
+
 \end_body
 \end_document
