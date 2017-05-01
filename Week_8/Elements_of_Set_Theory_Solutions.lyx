@@ -1,0 +1,413 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Elements of Set Theory Solutions
+\end_layout
+
+\begin_layout Subsection*
+Exercises 1
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ This is the set of primes.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ is the set of all reals such that 
+\begin_inset Formula $sin(x)=0$
+\end_inset
+
+, which restricts 
+\begin_inset Formula $x$
+\end_inset
+
+ to integer multiples of 
+\begin_inset Formula $\pi$
+\end_inset
+
+, but this is precisely the set 
+\begin_inset Formula $Q$
+\end_inset
+
+, hence set 
+\begin_inset Formula $P=Q$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+ 
+\begin_inset Formula $A=\{\sqrt{3}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A4.
+ The first statement is 
+\begin_inset Formula $\emptyset\subseteq A$
+\end_inset
+
+, which means that every element that belongs to 
+\begin_inset Formula $\emptyset$
+\end_inset
+
+ also belongs to 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Since no element belongs to the null-set, this is true trivially.
+ The second statement is 
+\begin_inset Formula $A\subseteq A$
+\end_inset
+
+, which means that every element that belongs to 
+\begin_inset Formula $A$
+\end_inset
+
+ also belongs to 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ This is trivially true.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A5.
+ The statement is 
+\begin_inset Formula $(A\subseteq B)\land(B\subseteq C)\Rightarrow A\subseteq C$
+\end_inset
+
+.
+ The first part means that every element that belongs to 
+\begin_inset Formula $A$
+\end_inset
+
+ also belongs to 
+\begin_inset Formula $B$
+\end_inset
+
+, and the second part means that every element that belongs to 
+\begin_inset Formula $B$
+\end_inset
+
+ also belongs to 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Since every element that belongs to 
+\begin_inset Formula $A$
+\end_inset
+
+ also belongs to 
+\begin_inset Formula $B$
+\end_inset
+
+ also belongs to 
+\begin_inset Formula $C$
+\end_inset
+
+, and every element of 
+\begin_inset Formula $A$
+\end_inset
+
+ also belongs to 
+\begin_inset Formula $C$
+\end_inset
+
+, or 
+\begin_inset Formula $A\subseteq C$
+\end_inset
+
+, which was the statement to be proved.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A6.
+ Let 
+\begin_inset Formula $\digamma_{1}$
+\end_inset
+
+ be the collection of all subsets of 
+\begin_inset Formula $\{1,2,3,4\}$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $\digamma_{1}=\{\emptyset,\{1\},\{2\},\{3\},\{4\},\{1,2\},\{1,3\},\{1,4\},\{2,3\},\{2,4\},\{3,4\}\}$
+\end_inset
+
+, along with 
+\begin_inset Formula $\{\{1,2,3\},\{1,2,4\},\{1,3,4\},\{2,3,4\},\{1,2,3,4\}\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A7.
+ Similarly to the above, 
+\begin_inset Formula $\digamma_{2}=\{\emptyset,\{1\},\{2\},\{3\},\{1,2\},\{1,2\},\{1,3\},\{1,\{1,2\}\},\{2,3\}\}$
+\end_inset
+
+, along with 
+\begin_inset Formula $\{\{2,\{1,2\}\},\{3,\{1,2\}\},\{1,2,3\},\{1,2,\{1,2\}\},\{2,3,\{1,2\}\},\{1,2,3,\{1,2\}\}\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A8.
+ An element 
+\begin_inset Formula $x$
+\end_inset
+
+ belongs to set 
+\begin_inset Formula $A$
+\end_inset
+
+ if 
+\begin_inset Formula $P(x)$
+\end_inset
+
+ is true.
+ Since 
+\begin_inset Formula $(\forall x)[P(x)\Rightarrow Q(x)]$
+\end_inset
+
+, if we have 
+\begin_inset Formula $P(x)$
+\end_inset
+
+, then we have 
+\begin_inset Formula $Q(x)$
+\end_inset
+
+.
+ But since an element 
+\begin_inset Formula $x$
+\end_inset
+
+ for which 
+\begin_inset Formula $Q(x)$
+\end_inset
+
+ is belongs to 
+\begin_inset Formula $B$
+\end_inset
+
+, we have that 
+\begin_inset Formula $A\subseteq B$
+\end_inset
+
+, which was to be proved.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A9.
+ A set with exactly 
+\begin_inset Formula $n$
+\end_inset
+
+ elements contains 
+\begin_inset Formula $2^{n}$
+\end_inset
+
+ subsets.
+ We prove this by induction.
+ The base case is for 
+\begin_inset Formula $n=1$
+\end_inset
+
+.
+ If a set contains one element 
+\begin_inset Formula $a$
+\end_inset
+
+, then the subsets are 
+\begin_inset Formula $\{\emptyset,\{a\}\}$
+\end_inset
+
+.
+ The number of elements in this collection is 
+\begin_inset Formula $2$
+\end_inset
+
+, and so, the base case is true since 
+\begin_inset Formula $2^{1}=2$
+\end_inset
+
+.
+ Assume that for 
+\begin_inset Formula $k\in\mathbb{N}$
+\end_inset
+
+, a set with 
+\begin_inset Formula $k$
+\end_inset
+
+ elements has 
+\begin_inset Formula $2^{k}$
+\end_inset
+
+ subsets is true.
+ Suppose now we have 
+\begin_inset Formula $k+1$
+\end_inset
+
+ elements, but for the time being, let's leave out one element.
+ The subsets can be labeled as 
+\begin_inset Formula $S_{1},S_{2},S_{3},\ldots,S_{2^{k}}$
+\end_inset
+
+.
+ If we add back the left-out element, we have all of our previous subsets
+ along with all the subsets with our element added back.
+ Thus we have 
+\begin_inset Formula $S_{1},S_{2},S_{3},\ldots,S_{2^{k}},\ldots,S_{2^{k+1}}$
+\end_inset
+
+, which are 
+\begin_inset Formula $2^{k+1}$
+\end_inset
+
+ subsets, which was to be proved from the induction hypothesis.
+ Hence, a set with 
+\begin_inset Formula $n$
+\end_inset
+
+ elements has 
+\begin_inset Formula $2^{n}$
+\end_inset
+
+ subsets.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A10.
+ 
+\begin_inset Formula $P=\{x\in A(n),\ n=15,20,6,19,5,14\}$
+\end_inset
+
+, where 
+\begin_inset Formula $A(n)$
+\end_inset
+
+ is the 
+\begin_inset Formula $n^{th}$
+\end_inset
+
+ alphabet letter.
+\end_layout
+
+\begin_layout Subsection*
+Exercises 2
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ Um...how about...NO.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ Same as above.
+\end_layout
+
+\end_body
+\end_document
