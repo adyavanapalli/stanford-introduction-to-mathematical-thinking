@@ -1,0 +1,506 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Assignment 10.1 (for Lecture 10A) Solutions
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ If we let the empty set and a single element also be intervals, then from
+ the definition of intersections, we have 
+\begin_inset Formula $A\cap B=\{x\ |(x\in A\land x\in B)$
+\end_inset
+
+.
+ There are four cases to considers.
+ The first case involves an intersection in which no elements coincide,
+ and thus we have an empty set for the intersection.
+ The second case involves an intersection in which only one element is shared.
+ The third case involves an intersection in which the sets overlap, with
+ more than one element contained in the intersection.
+ This is an interval.
+ The fourth and final case involves an intersection in which one set completely
+ envelopes the other set, and this is also an intersection.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) 
+\begin_inset Formula $(-\infty,1)\cup(3,+\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) 
+\begin_inset Formula $(-\infty,1)\cup[7,+\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(c) 
+\begin_inset Formula $(-\infty,5]\cup(8,+\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(d) 
+\begin_inset Formula $(-\infty,3]\cup(8,+\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(e) 
+\begin_inset Formula $[3,+\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(f) 
+\begin_inset Formula $(-\infty,\pi)\cup(\pi,+\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(g) 
+\begin_inset Formula $\{4\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(h) 
+\begin_inset Formula $\emptyset$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(i) 
+\begin_inset Formula $(-\infty,7]\cup[8,+\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(j) 
+\begin_inset Formula $(5,7]$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+ If a set of integers/rationals/reals has an upper bound, call it 
+\begin_inset Formula $\alpha\in\mathbb{N},\mathbb{Q},\mathbb{R}$
+\end_inset
+
+, then one can find another upper bound 
+\begin_inset Formula $\alpha+1$
+\end_inset
+
+ which is greater than 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+ Since this can be done with any upper bound, there must be infinitely many
+ upper bounds.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A4.
+ If a set of integers/rationals/reals has a least upper bound, call it 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, then for any upper bound 
+\begin_inset Formula $\beta$
+\end_inset
+
+ of the set , 
+\begin_inset Formula $\alpha\leq\beta$
+\end_inset
+
+.
+ Suppose there exist two least upper bounds, 
+\begin_inset Formula $\alpha_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+.
+ Since they are least upper bounds, they are also upper bounds.
+ Thus, they satisfy 
+\begin_inset Formula $(\alpha_{1}\leq\alpha_{2})\land(\alpha_{2}\leq\alpha_{1})$
+\end_inset
+
+, but this must mean 
+\begin_inset Formula $\alpha_{1}=\alpha_{2}$
+\end_inset
+
+; hence the least upper bound is unique.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A5.
+ The definition of least upper bound states that 
+\begin_inset Formula $b$
+\end_inset
+
+ is the least upper bound if 
+\begin_inset Formula $a\leq b,\ \forall a\in A$
+\end_inset
+
+ and for any other upper bound 
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $b\le c$
+\end_inset
+
+.
+ Property (a) is identical to the first part of the definition.
+ Property (b) identical to saying that if there's an element which is strictly
+ less than 
+\begin_inset Formula $b$
+\end_inset
+
+, then it must be the case that there's an element in 
+\begin_inset Formula $A$
+\end_inset
+
+ that is strictly greater than it.
+ Part two of the definition is the statement that if 
+\begin_inset Formula $c$
+\end_inset
+
+ is an upper bound, then 
+\begin_inset Formula $b\le c$
+\end_inset
+
+.
+ The contrapositive is the statement that 
+\begin_inset Formula $c<b\Rightarrow\neg UpperBound(c)$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $c$
+\end_inset
+
+ is not an upper bound, then it must be the case that 
+\begin_inset Formula $a>c$
+\end_inset
+
+ for some 
+\begin_inset Formula $a\in A$
+\end_inset
+
+.
+ This is equivalent to what we needed to prove, and thus the proof is complete.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A6.
+ 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A7.
+ The set of all natural numbers has no upper bound.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A8.
+ If the set 
+\begin_inset Formula $A$
+\end_inset
+
+ is finite, then it can be enumerated in increasing order as follows, where
+ 
+\begin_inset Formula $a_{i}\in A$
+\end_inset
+
+, 
+\begin_inset Formula $\{a_{1},a_{2},a_{3},\ldots,a_{n}\}$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+ is the least upper bound because 
+\begin_inset Formula $a_{n}\ge a_{i}\ ,\forall a_{i}\in A$
+\end_inset
+
+ and 
+\begin_inset Formula $a_{n}\le b$
+\end_inset
+
+, where 
+\begin_inset Formula $b$
+\end_inset
+
+ is any other element in the 
+\begin_inset Formula $\mathbb{Z},\mathbb{Q},\mathbb{R}$
+\end_inset
+
+ that is an upper bound.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A9.
+ 
+\begin_inset Formula $LUB(a,b)=b$
+\end_inset
+
+.
+ 
+\begin_inset Formula $LUB[a,b]=b$
+\end_inset
+
+.
+ 
+\begin_inset Formula $Max(a,b)$
+\end_inset
+
+ has no maximum element.
+ 
+\begin_inset Formula $Max[a,b]=b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A10.
+ If 
+\begin_inset Formula $A$
+\end_inset
+
+ is defined in such a way, then it's largest element may be constructed
+ by letting 
+\begin_inset Formula $x=b-\epsilon,y=a+\epsilon$
+\end_inset
+
+, such that 
+\begin_inset Formula $|x-y|=|(b-\epsilon)-(a+\epsilon)|=|(b-a)-2\epsilon|=(b-a)-2\epsilon$
+\end_inset
+
+, where 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ tends to 
+\begin_inset Formula $0$
+\end_inset
+
+ from above.
+ If one takes 
+\begin_inset Formula $b-a$
+\end_inset
+
+, we can show that it is an upper bound because 
+\begin_inset Formula $b-a\ge b-a-2\epsilon\iff\epsilon\ge0$
+\end_inset
+
+.
+ It is also the least upper bound because any element smaller than 
+\begin_inset Formula $b-a$
+\end_inset
+
+ but greater than 
+\begin_inset Formula $0$
+\end_inset
+
+ will be inside 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A11.
+ A set 
+\begin_inset Formula $A$
+\end_inset
+
+ has a lower bound 
+\begin_inset Formula $b$
+\end_inset
+
+ if 
+\begin_inset Formula $b\le a,\ \forall a\in A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A12.
+ A set 
+\begin_inset Formula $A$
+\end_inset
+
+ has a greatest lower bound 
+\begin_inset Formula $b$
+\end_inset
+
+ if 
+\begin_inset Formula $b$
+\end_inset
+
+ is a lower bound and for any other lower bound 
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $c\le b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A13.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A14.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A15.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A16.
+ The Completeness Property for the integers states that every non-empty
+ set of integers that contains a lower/upper bound contains a greatest/least
+ lower/upper bound.
+\end_layout
+
+\end_body
+\end_document
