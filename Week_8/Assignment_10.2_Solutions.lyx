@@ -1,0 +1,410 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Assignment 10.2 (for Lecture 10C) Solutions
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A1.
+ The set 
+\begin_inset Formula $A$
+\end_inset
+
+ consists of all positive rationals whose square is strictly greater than
+ 
+\begin_inset Formula $3$
+\end_inset
+
+.
+ Thus we can find a lower bound by finding a rational less than or equal
+ to 
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+ i.e.
+ a rational whose square is less than or equal to 3.
+ One such lower bound is 
+\begin_inset Formula $\nicefrac{1732}{1000}$
+\end_inset
+
+, which is less than or equal to 
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+.
+ Let's now show that one can always find a larger number that is still less
+ than 
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+.
+ Suppose we have one such lower bound denoted by 
+\begin_inset Formula $\nicefrac{p}{q}\le3$
+\end_inset
+
+.
+ Actually, from earlier, there is no such rational such that 
+\begin_inset Formula $\nicefrac{p}{q}=3$
+\end_inset
+
+.
+ Thus, our lower bound is strictly less than 
+\begin_inset Formula $3$
+\end_inset
+
+.
+ We can construct another number of the form 
+\begin_inset Formula $(\nicefrac{p}{q}+3)/2$
+\end_inset
+
+.
+ Let's check that it is greater than 
+\begin_inset Formula $\nicefrac{p}{q}$
+\end_inset
+
+, but strictly less than 
+\begin_inset Formula $3$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\nicefrac{p}{q}<(\nicefrac{p}{q}+3)/2=\frac{p+3q}{2q}\iff\frac{1}{2}\frac{p}{q}<\frac{3}{2}\iff\frac{p}{q}<3$
+\end_inset
+
+, hence it is strictly greater than 
+\begin_inset Formula $\nicefrac{p}{q}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\frac{p+3q}{2q}<3\iff\frac{p}{2q}<\frac{3}{2}\iff\frac{p}{q}<3$
+\end_inset
+
+.
+ Hence, it is strictly less than 
+\begin_inset Formula $3$
+\end_inset
+
+.
+ Since we can do this for any 
+\begin_inset Formula $\nicefrac{p}{q}<3$
+\end_inset
+
+, there is no greatest lower bound.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2.
+ Let 
+\begin_inset Formula $x=1,y=1/z>0$
+\end_inset
+
+, where 
+\begin_inset Formula $z=s-r$
+\end_inset
+
+.
+ Then by the Archimedean property, there exists an 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ such that 
+\begin_inset Formula $n>1/z\iff n\cdot z>1\iff n\cdot s-n\cdot r>1$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $n\cdot s-n\cdot r$
+\end_inset
+
+ is at least greater than one, we must have an integer between the two such
+ that 
+\begin_inset Formula $n\cdot r<m<n\cdot s$
+\end_inset
+
+, and so we have 
+\begin_inset Formula $r<\frac{m}{n}<s$
+\end_inset
+
+, which was to be proved.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3.
+ The statement 
+\begin_inset Formula $a_{n}\rightarrow a$
+\end_inset
+
+ means that 
+\begin_inset Formula $(\forall\epsilon>0)(\exists n)[m>n\Rightarrow|a_{m}-a|<\epsilon]$
+\end_inset
+
+, and it's negation means that 
+\begin_inset Formula $(\exists\epsilon>0)(\forall n)[m>n)\land|a_{m}-a|\ge\epsilon]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A4.
+ 
+\begin_inset Formula $\left(\frac{n}{n+1}\right)^{2}\rightarrow1$
+\end_inset
+
+ means that 
+\begin_inset Formula $(\forall\epsilon>0)(\exists n)[m>n\Rightarrow\left|\left(\frac{m}{m+1}\right)^{2}-1\right|<\epsilon$
+\end_inset
+
+.
+ If we manipulate the inside expression, we obtain that 
+\begin_inset Formula $\left|\left(\frac{m}{m+1}\right)^{2}-1\right|<\epsilon\iff\left|-\frac{2m+1}{(m+1)^{2}}\right|<\epsilon\iff\left|\frac{2m+1}{(m+1)^{2}}\right|<\epsilon$
+\end_inset
+
+.
+ Hence, let's try to find such an 
+\begin_inset Formula $n$
+\end_inset
+
+ for some arbitrarily given 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A5.
+ 
+\begin_inset Formula $\frac{1}{n^{2}}\rightarrow0$
+\end_inset
+
+ means that 
+\begin_inset Formula $(\forall\epsilon>0)(\exists n)[m>n\Rightarrow\frac{1}{m^{2}}<\epsilon]$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $n=\frac{1}{\sqrt{\epsilon}}$
+\end_inset
+
+, then we have that 
+\begin_inset Formula $\epsilon=\frac{1}{n^{2}}>\frac{1}{m^{2}}$
+\end_inset
+
+, which was to be proved.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A6.
+ 
+\begin_inset Formula $\frac{1}{2^{n}}\rightarrow0$
+\end_inset
+
+ means that 
+\begin_inset Formula $(\forall\epsilon>0)(\exists n)[m>n\Rightarrow\frac{1}{2^{m}}<\epsilon]$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $n=-log_{2}(\epsilon)$
+\end_inset
+
+, then we have that 
+\begin_inset Formula $\epsilon=\frac{1}{2^{n}}>\frac{1}{2^{m}}$
+\end_inset
+
+, which was to be proved.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A7.
+ In simple terms, a sequence is said to tend to infinity if for every number
+ I give you, you can find a term in the sequence that is bigger than it.
+ Formally, this is 
+\begin_inset Formula $(\forall K\in\mathbb{R})(\exists n\in\mathbb{N})[m>n\Rightarrow a_{m}>K]$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) Proof that 
+\begin_inset Formula $\{n\}_{n=1}^{\infty}=\infty$
+\end_inset
+
+.
+ Given a number 
+\begin_inset Formula $K$
+\end_inset
+
+, choose 
+\begin_inset Formula $n=\left\lceil K\right\rceil $
+\end_inset
+
+.
+ Since we have that 
+\begin_inset Formula $n\ge K$
+\end_inset
+
+, and that 
+\begin_inset Formula $m>n$
+\end_inset
+
+, we must have 
+\begin_inset Formula $m>K$
+\end_inset
+
+, which was to be proved.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) Proof that 
+\begin_inset Formula $\{2^{n}\}_{n=1}^{\infty}=\infty$
+\end_inset
+
+.
+ Given a number 
+\begin_inset Formula $K$
+\end_inset
+
+, choose 
+\begin_inset Formula $n=\left\lceil \lg(K)\right\rceil $
+\end_inset
+
+.
+ Since we have that 
+\begin_inset Formula $2^{n}=2^{\left\lceil \lg(K)\right\rceil }\ge K$
+\end_inset
+
+, and that 
+\begin_inset Formula $m>n$
+\end_inset
+
+, we must have that 
+\begin_inset Formula $2^{m}>K$
+\end_inset
+
+, which was to be proved.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A8.
+ A least upper bound of some set 
+\begin_inset Formula $A$
+\end_inset
+
+ (take LUB
+\begin_inset Formula $\in\mathbb{R}$
+\end_inset
+
+) will be greater than or equal to every element in 
+\begin_inset Formula $A$
+\end_inset
+
+, and is less than or equal to any other upper bound.
+ If 
+\begin_inset Formula $a$
+\end_inset
+
+ is to be a least upper bound of 
+\begin_inset Formula $\{a_{n}\}_{n\in\mathbb{N}}$
+\end_inset
+
+, then we must necessarily have that 
+\begin_inset Formula $a\ge a_{i}\in\{a_{n}\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A9.
+ 
+\end_layout
+
+\end_body
+\end_document
