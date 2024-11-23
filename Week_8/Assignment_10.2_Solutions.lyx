@@ -1,16 +1,16 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass article
 \use_default_options true
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -18,9 +18,13 @@
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -49,6 +53,9 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -57,15 +64,23 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -81,14 +96,12 @@ A1.
 \begin_inset Formula $A$
 \end_inset
 
- consists of all positive rationals whose square is strictly greater than
- 
+ consists of all positive rationals whose square is strictly greater than 
 \begin_inset Formula $3$
 \end_inset
 
 .
- Thus we can find a lower bound by finding a rational less than or equal
- to 
+ Thus we can find a lower bound by finding a rational less than or equal to 
 \begin_inset Formula $\sqrt{3}$
 \end_inset
 
@@ -98,13 +111,13 @@ A1.
 \begin_inset Formula $\nicefrac{1732}{1000}$
 \end_inset
 
-, which is less than or equal to 
+,
+ which is less than or equal to 
 \begin_inset Formula $\sqrt{3}$
 \end_inset
 
 .
- Let's now show that one can always find a larger number that is still less
- than 
+ Let's now show that one can always find a larger number that is still less than 
 \begin_inset Formula $\sqrt{3}$
 \end_inset
 
@@ -114,12 +127,15 @@ A1.
 \end_inset
 
 .
- Actually, from earlier, there is no such rational such that 
+ Actually,
+ from earlier,
+ there is no such rational such that 
 \begin_inset Formula $\nicefrac{p}{q}=3$
 \end_inset
 
 .
- Thus, our lower bound is strictly less than 
+ Thus,
+ our lower bound is strictly less than 
 \begin_inset Formula $3$
 \end_inset
 
@@ -133,7 +149,8 @@ A1.
 \begin_inset Formula $\nicefrac{p}{q}$
 \end_inset
 
-, but strictly less than 
+,
+ but strictly less than 
 \begin_inset Formula $3$
 \end_inset
 
@@ -142,7 +159,8 @@ A1.
 \begin_inset Formula $\nicefrac{p}{q}<(\nicefrac{p}{q}+3)/2=\frac{p+3q}{2q}\iff\frac{1}{2}\frac{p}{q}<\frac{3}{2}\iff\frac{p}{q}<3$
 \end_inset
 
-, hence it is strictly greater than 
+,
+ hence it is strictly greater than 
 \begin_inset Formula $\nicefrac{p}{q}$
 \end_inset
 
@@ -152,7 +170,8 @@ A1.
 \end_inset
 
 .
- Hence, it is strictly less than 
+ Hence,
+ it is strictly less than 
 \begin_inset Formula $3$
 \end_inset
 
@@ -161,7 +180,8 @@ A1.
 \begin_inset Formula $\nicefrac{p}{q}<3$
 \end_inset
 
-, there is no greatest lower bound.
+,
+ there is no greatest lower bound.
 \end_layout
 
 \begin_layout Labeling
@@ -171,12 +191,14 @@ A2.
 \begin_inset Formula $x=1,y=1/z>0$
 \end_inset
 
-, where 
+,
+ where 
 \begin_inset Formula $z=s-r$
 \end_inset
 
 .
- Then by the Archimedean property, there exists an 
+ Then by the Archimedean property,
+ there exists an 
 \begin_inset Formula $n\in\mathbb{N}$
 \end_inset
 
@@ -189,16 +211,18 @@ A2.
 \begin_inset Formula $n\cdot s-n\cdot r$
 \end_inset
 
- is at least greater than one, we must have an integer between the two such
- that 
+ is at least greater than one,
+ we must have an integer between the two such that 
 \begin_inset Formula $n\cdot r<m<n\cdot s$
 \end_inset
 
-, and so we have 
+,
+ and so we have 
 \begin_inset Formula $r<\frac{m}{n}<s$
 \end_inset
 
-, which was to be proved.
+,
+ which was to be proved.
 \end_layout
 
 \begin_layout Labeling
@@ -212,7 +236,8 @@ A3.
 \begin_inset Formula $(\forall\epsilon>0)(\exists n)[m>n\Rightarrow|a_{m}-a|<\epsilon]$
 \end_inset
 
-, and it's negation means that 
+,
+ and it's negation means that 
 \begin_inset Formula $(\exists\epsilon>0)(\forall n)[m>n)\land|a_{m}-a|\ge\epsilon]$
 \end_inset
 
@@ -231,12 +256,14 @@ A4.
 \end_inset
 
 .
- If we manipulate the inside expression, we obtain that 
+ If we manipulate the inside expression,
+ we obtain that 
 \begin_inset Formula $\left|\left(\frac{m}{m+1}\right)^{2}-1\right|<\epsilon\iff\left|-\frac{2m+1}{(m+1)^{2}}\right|<\epsilon\iff\left|\frac{2m+1}{(m+1)^{2}}\right|<\epsilon$
 \end_inset
 
 .
- Hence, let's try to find such an 
+ Hence,
+ let's try to find such an 
 \begin_inset Formula $n$
 \end_inset
 
@@ -263,11 +290,13 @@ A5.
 \begin_inset Formula $n=\frac{1}{\sqrt{\epsilon}}$
 \end_inset
 
-, then we have that 
+,
+ then we have that 
 \begin_inset Formula $\epsilon=\frac{1}{n^{2}}>\frac{1}{m^{2}}$
 \end_inset
 
-, which was to be proved.
+,
+ which was to be proved.
 \end_layout
 
 \begin_layout Labeling
@@ -286,19 +315,23 @@ A6.
 \begin_inset Formula $n=-log_{2}(\epsilon)$
 \end_inset
 
-, then we have that 
+,
+ then we have that 
 \begin_inset Formula $\epsilon=\frac{1}{2^{n}}>\frac{1}{2^{m}}$
 \end_inset
 
-, which was to be proved.
+,
+ which was to be proved.
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 A7.
- In simple terms, a sequence is said to tend to infinity if for every number
- I give you, you can find a term in the sequence that is bigger than it.
- Formally, this is 
+ In simple terms,
+ a sequence is said to tend to infinity if for every number I give you,
+ you can find a term in the sequence that is bigger than it.
+ Formally,
+ this is 
 \begin_inset Formula $(\forall K\in\mathbb{R})(\exists n\in\mathbb{N})[m>n\Rightarrow a_{m}>K]$
 \end_inset
 
@@ -317,7 +350,8 @@ A7.
 \begin_inset Formula $K$
 \end_inset
 
-, choose 
+,
+ choose 
 \begin_inset Formula $n=\left\lceil K\right\rceil $
 \end_inset
 
@@ -326,15 +360,18 @@ A7.
 \begin_inset Formula $n\ge K$
 \end_inset
 
-, and that 
+,
+ and that 
 \begin_inset Formula $m>n$
 \end_inset
 
-, we must have 
+,
+ we must have 
 \begin_inset Formula $m>K$
 \end_inset
 
-, which was to be proved.
+,
+ which was to be proved.
 \end_layout
 
 \begin_layout Labeling
@@ -348,7 +385,8 @@ A7.
 \begin_inset Formula $K$
 \end_inset
 
-, choose 
+,
+ choose 
 \begin_inset Formula $n=\left\lceil \lg(K)\right\rceil $
 \end_inset
 
@@ -357,15 +395,18 @@ A7.
 \begin_inset Formula $2^{n}=2^{\left\lceil \lg(K)\right\rceil }\ge K$
 \end_inset
 
-, and that 
+,
+ and that 
 \begin_inset Formula $m>n$
 \end_inset
 
-, we must have that 
+,
+ we must have that 
 \begin_inset Formula $2^{m}>K$
 \end_inset
 
-, which was to be proved.
+,
+ which was to be proved.
 \end_layout
 
 \end_deeper
@@ -384,7 +425,8 @@ A8.
 \begin_inset Formula $A$
 \end_inset
 
-, and is less than or equal to any other upper bound.
+,
+ and is less than or equal to any other upper bound.
  If 
 \begin_inset Formula $a$
 \end_inset
@@ -393,7 +435,8 @@ A8.
 \begin_inset Formula $\{a_{n}\}_{n\in\mathbb{N}}$
 \end_inset
 
-, then we must necessarily have that 
+,
+ then we must necessarily have that 
 \begin_inset Formula $a\ge a_{i}\in\{a_{n}\}$
 \end_inset
 
@@ -403,7 +446,93 @@ A8.
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 A9.
+ Let 
+\begin_inset Formula $\{a_{n}\}_{n=1}^{\infty}$
+\end_inset
+
+be an increasing sequence bounded from above.
+ Define 
+\begin_inset Formula $L=sup\{a_{n}:n\in\mathbb{N}\}$
+\end_inset
+
+ and let 
+\begin_inset Formula $\epsilon>0$
+\end_inset
+
+ be arbitrary.
+ Since 
+\begin_inset Formula $L$
+\end_inset
+
+ is the least upper bound of the sequence,
  
+\begin_inset Formula $L-\epsilon$
+\end_inset
+
+ is not an upper bound.
+ Therefore,
+ there exists an index 
+\begin_inset Formula $N\in\mathbb{N}$
+\end_inset
+
+ such that 
+\begin_inset Formula $a_{N}>L-\epsilon$
+\end_inset
+
+.
+ Because the sequence is increasing,
+ for all 
+\begin_inset Formula $n\geq N:a_{n}\geq a_{N}>L-\epsilon$
+\end_inset
+
+.
+ Also,
+ since 
+\begin_inset Formula $L$
+\end_inset
+
+ is an upper bound for 
+\begin_inset Formula $\{a_{n}\}$
+\end_inset
+
+,
+ we have 
+\begin_inset Formula $a_{n}\leq L$
+\end_inset
+
+ for all 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Combining these inequalities,
+ we obtain for all 
+\begin_inset Formula $n\geq N:L-\epsilon<a_{n}\leq L$
+\end_inset
+
+.
+ This implies that 
+\begin_inset Formula $0\leq L-a_{n}<\epsilon$
+\end_inset
+
+ i.e.
+ 
+\begin_inset Formula $|a_{n}-L|<\epsilon$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ was chosen to be arbitrary,
+ we can make it as small as we want,
+ which is precisely the definition of the limit i.e.
+ 
+\begin_inset Formula $\text{lim}_{n\rightarrow\infty}a_{n}=L$
+\end_inset
+
+.
 \end_layout
 
 \end_body
